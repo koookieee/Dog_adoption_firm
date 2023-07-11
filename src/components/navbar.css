@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F9F5F6; /* Darker background color */
+  padding: 10px 20px; /* Add some padding */
+}
+
+.head-block {
+  display: flex;
+  justify-content: flex-start; /* Align the content to the left */
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+  width: 100px; /* Reduce the logo size */
+  height: 20%;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* Align the content to the right */
+  align-items: center;
+  gap: 40px; /* Reduce the gap between list items */
+  margin-right: 0; /* Remove the right margin */
+  font-family: 'Quicksand', sans-serif;
+}
+
+.list li {
+  position: relative; /* Add positioning context */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: color 0.3s ease; /* Add a smooth color transition */
+}
+
+.list li::before {
+  content: ''; /* Create the pseudo-element for the box */
+  position: absolute; /* Position the box */
+  top: -3px; /* Adjust the top position as needed */
+  left: -5px; /* Adjust the left position as needed */
+  width: calc(100% + 10px); /* Make the box wider than the list item */
+  height: calc(100% + 6px); /* Make the box taller than the list item */
+  border-radius: 20px; /* Apply a border radius to create a curved shape */
+  background-color: #ffd700; /* Set the background color of the box */
+  opacity: 0; /* Hide the box by default */
+  transition: opacity 0.3s ease; /* Add a smooth transition */
+  z-index: -1; /* Set a lower stacking order for the box */
+}
+
+.list li:hover::before {
+  opacity: 1; /* Show the box on hover */
+}
+
+.list li span {
+  position: relative; /* Add positioning context */
+  z-index: 1; /* Set a higher stacking order for the text */
+}
+
+.list li:hover span {
+  color: black; /* Set the text color to black on hover */
+  font-weight: bold; /* Set the text to bold on hover */
+}

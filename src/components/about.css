@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+section {
+  background-color: #FCEFF3; /* Light pink background color */
+  padding: 40px; /* Add some padding around the content */
+  font-family: 'Poppins', sans-serif; /* Apply Google Font */
+  text-align: center; /* Center align the content */
+}
+
+.aboutdiv {
+  max-width: 800px; /* Limit the width of the content */
+  margin: 0 auto; /* Center align the content within the section */
+}
+
+h2 {
+  font-size: 32px; /* Increase the heading font size */
+  color: #FF9AA2; /* Set a cute pink color for the heading */
+  margin-bottom: 20px; /* Add some spacing below the heading */
+}
+
+p {
+  font-size: 18px; /* Adjust the paragraph font size */
+  color: #0C134F; /* Set a dark gray color for the paragraph text */
+  line-height: 1.5; /* Add some line spacing for readability */
+  font-weight: 600;
+}

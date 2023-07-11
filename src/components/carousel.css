@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.carouse {
+  background: #F9F5F6; /* Light pink background color */
+  width: 90%;
+  height: 400px; /* Adjust the height as needed */
+  padding: 2%;
+  margin: 5% auto; /* Center align the carousel */
+  border-radius: 20px; /* Apply a rounded border */
+  overflow: hidden; /* Hide any overflow from the carousel */
+}
+
+.carousel-slide {
+  position: relative; /* Set the position of the carousel slides */
+}
+
+.carousel-caption {
+  position: absolute; /* Position the caption absolutely */
+  bottom: 10px; /* Adjust the bottom position as needed */
+  left: 20px; /* Adjust the left position as needed */
+  right: 20px; /* Adjust the right position as needed */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px; /* Apply a rounded border to the caption */
+  font-family: 'Poppins', sans-serif; /* Apply Google Font */
+
+}
+
+.carousel-image {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px; /* Apply a rounded border to the images */
+}
+
+.slick-dots li button:before {
+  font-size: 12px; /* Adjust the size of the dot indicators */
+  color: #FF9AA2; /* Set a cute color for the dots */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px; /* Adjust the size of the navigation arrows */
+  color: #FF9AA2; /* Set a cute color for the arrows */
+}
+
+@media (max-width: 768px) {
+  .carouse {
+    height: 300px; /* Adjust the height for smaller screens */
+  }
+
+  .carousel-caption {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+}
+
+
+.pcap{
+  color: #FBFF00;
+
+}

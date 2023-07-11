@@ -1,0 +1,41 @@
+.body-div{
+    background: pink;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #c12020;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+  }
+
+  .card.expanded {
+    width: 400px;
+    height: 400px;
+    
+  }
+
+  .card-content {
+    display: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: auto;
+    
+  }
+
+  .card.expanded .card-content {
+    display: block;
+    
+  }
+
+  .imgg{
+    margin-top: 20%;
+  }

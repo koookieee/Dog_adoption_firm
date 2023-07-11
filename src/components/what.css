@@ -1,0 +1,44 @@
+.colm{
+    /* margin-top: 5%; */
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+.sectionw {
+    background: rgb(240,217,231);
+    background: linear-gradient(90deg, rgba(240,217,231,1) 18%, rgba(252,239,243,1) 55%); /* Light pink background color */
+  padding: 40px; /* Add some padding around the content */
+  font-family: 'Poppins', sans-serif; /* Apply Google Font */
+  text-align: left; /* Center align the content */
+}
+
+.aboutdivw {
+  max-width: 800px; /* Limit the width of the content */
+  margin-left: 2px;; /* Center align the content within the section */
+}
+
+.stickw {
+  font-size: 32px; /* Increase the heading font size */
+  color: #FF9AA2; /* Set a cute pink color for the heading */
+  margin-bottom: 20px; /* Add some spacing below the heading */
+}
+
+.pw {
+  font-size: 18px; /* Adjust the paragraph font size */
+  color: #0C134F; /* Set a dark gray color for the paragraph text */
+  line-height: 1.5; /* Add some line spacing for readability */
+  font-weight: 600;
+}
+
+.ii{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.x{
+    display: flex;
+    justify-content:right;
+    margin-left: 98%;
+    
+}
+  

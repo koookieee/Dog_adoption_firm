@@ -1,0 +1,45 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left, .footer-right {
+  flex: 1;
+}
+
+.footer-left>p{
+    color: #fff;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-bottom {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+}

@@ -1,0 +1,13 @@
+body{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+}
+
+section{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+}

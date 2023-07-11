@@ -1,0 +1,20 @@
+.border1 {
+    border: 2px dotted #AED9E0; /* Light blue border color */
+    border-radius: 20px; /* Adjust the border radius as needed */
+  }
+  
+  .border2 {
+    border: 2px dotted #AED9E0; /* Light blue border color */
+    border-radius: 30px; /* Adjust the border radius as needed */
+  }
+  
+  .border3 {
+    border: 2px dotted #AED9E0; /* Light blue border color */
+    border-radius: 40px; /* Adjust the border radius as needed */
+  }
+  .borf{
+    /* background: rgb(240,217,231);
+    
+background: linear-gradient(90deg, rgba(240,217,231,1) 18%, rgba(234,190,204,1) 81%); */
+background: #FCEFF3;
+  }
