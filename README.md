@@ -1,6 +1,6 @@
 
 
-![Alt text](Screenshot from 2023-07-11 11-33-28.png)
+![Alt text](./Screenshot%20from%202023-07-11%2011-33-28.png)
 
 
 # Getting Started with Create React App
